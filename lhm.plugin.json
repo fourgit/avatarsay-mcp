@@ -1,0 +1,20 @@
+{
+  "author": "AvatarSay",
+  "authorUrl": "https://avatarsay.com",
+  "category": "media",
+  "cloudEndpoint": "https://avatarsay.com/mcp",
+  "description": "Generate fictional character portraits, tabletop RPG NPC sheets (SillyTavern V2 & Foundry VTT JSON), fast MP3 voice barks, and lip-synced MP4 talking videos from text.",
+  "homepage": "https://avatarsay.com/mcp",
+  "icon": "🎭",
+  "identifier": "fourgit-avatarsay-mcp",
+  "localizations": [
+    {
+      "description": "从一句话生成 8 种画风虚构角色立绘、跑团 NPC 设定卡（支持 SillyTavern V2 与 Foundry VTT JSON 导出）、秒级 MP3 台词语音条与口型同步说话短视频。",
+      "locale": "zh-CN",
+      "name": "AvatarSay 虚构角色与跑团说话视频 MCP"
+    }
+  ],
+  "name": "AvatarSay — RPG NPC & Talking Character Studio",
+  "tags": ["avatar", "video", "tts", "rpg", "dnd", "sillytavern", "foundry-vtt"],
+  "version": "0.2.0"
+}
