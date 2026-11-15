@@ -1,7 +1,7 @@
 {
   "name": "avatarsay-mcp",
-  "version": "1.0.0",
-  "description": "Zero-dependency MCP stdio bridge and manifest for AvatarSay (https://avatarsay.com/mcp) — generate fictional RPG NPCs, anime OCs, and lip-synced talking avatar MP4 videos.",
+  "version": "0.2.0",
+  "description": "Zero-dependency MCP stdio bridge and manifest for AvatarSay (https://avatarsay.com/mcp) — roll tabletop RPG NPCs (SillyTavern V2 & Foundry VTT JSON), render <3s MP3 voice barks, and generate fictional character portraits & lip-synced talking MP4 videos.",
   "type": "module",
   "license": "MIT",
   "mcpName": "io.github.fourgit/avatarsay-mcp",
@@ -16,6 +16,8 @@
   "files": [
     "bin/",
     "server.json",
+    "glama.json",
+    "Dockerfile",
     "README.md",
     "LICENSE"
   ],
@@ -29,7 +31,10 @@
     "talking-avatar",
     "ai-avatar",
     "rpg-npc",
+    "trpg",
     "dnd",
+    "sillytavern",
+    "foundry-vtt",
     "claude",
     "cursor"
   ]

@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.fourgit/avatarsay-mcp",
-  "title": "AvatarSay — Fictional Character & Talking Video MCP",
-  "description": "Generate fictional RPG NPCs, anime OCs & talking avatar MP4 videos from text. No subscription.",
-  "version": "1.0.0",
+  "title": "AvatarSay — Fictional Character, RPG NPC & Talking Video MCP",
+  "description": "Roll RPG NPCs (SillyTavern V2 & Foundry VTT), MP3 voice barks, portraits & talking MP4s. No subscription.",
+  "version": "0.2.0",
   "websiteUrl": "https://avatarsay.com/mcp",
   "repository": {
     "url": "https://github.com/fourgit/avatarsay-mcp",
@@ -16,7 +16,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional for discovery; required for generation tools: Bearer avs_YOUR_API_KEY (from https://avatarsay.com/dashboard#mcp)",
+          "description": "Optional for discovery & roll_rpg_npc; required for generation tools: Bearer avs_YOUR_API_KEY (from https://avatarsay.com/dashboard#mcp)",
           "isRequired": false,
           "isSecret": true
         }
