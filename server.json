@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.fourgit/avatarsay-mcp",
   "title": "AvatarSay — Fictional Character, RPG NPC & Talking Video MCP",
-  "description": "Roll RPG NPCs (Foundry VTT & SillyTavern V2), MP3 voice barks, portraits & talking MP4s.",
-  "version": "1.1.0",
+  "description": "Roll RPG NPCs (Foundry VTT & SillyTavern V2), import stylized art, MP3 barks & talking MP4s.",
+  "version": "1.2.0",
   "websiteUrl": "https://avatarsay.com/mcp",
   "repository": {
     "url": "https://github.com/fourgit/avatarsay-mcp",
