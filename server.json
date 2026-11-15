@@ -3,12 +3,30 @@
   "name": "io.github.fourgit/avatarsay-mcp",
   "title": "AvatarSay — Fictional Character, RPG NPC & Talking Video MCP",
   "description": "Roll RPG NPCs (Foundry VTT & SillyTavern V2), import stylized art, MP3 barks & talking MP4s.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "websiteUrl": "https://avatarsay.com/mcp",
   "repository": {
     "url": "https://github.com/fourgit/avatarsay-mcp",
     "source": "github"
   },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "avatarsay-mcp",
+      "version": "1.2.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "AVATARSAY_API_KEY",
+          "description": "Optional for discovery & roll_rpg_npc; required for generation tools: avs_YOUR_API_KEY (from https://avatarsay.com/dashboard#mcp)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

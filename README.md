@@ -1,5 +1,6 @@
 # AvatarSay MCP Server (`v1.2.0`)
 
+[![npm version](https://img.shields.io/npm/v/avatarsay-mcp.svg)](https://www.npmjs.com/package/avatarsay-mcp)
 [![CI](https://github.com/fourgit/avatarsay-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/fourgit/avatarsay-mcp/actions/workflows/ci.yml)
 [![AvatarSay MCP Server MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/fourgit/avatarsay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fourgit/avatarsay-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fourgit/avatarsay-mcp/blob/main/LICENSE)
@@ -44,9 +45,9 @@ claude mcp add --transport http avatarsay https://avatarsay.com/mcp \
 
 ---
 
-## Claude Desktop (`stdio` Bridge — Zero `git` Required)
+## Claude Desktop (`stdio` Bridge — Official npm Package)
 
-Claude Desktop's `claude_desktop_config.json` expects a local `stdio` command. Pass the immutable `v1.2.0` GitHub HTTPS tarball URL directly to `npx -y` — npm fetches the tarball natively over HTTPS with **zero `git` binary dependency** and **zero npm login**:
+Add `avatarsay-mcp` to `claude_desktop_config.json`:
 
 ```json
 {
@@ -55,7 +56,7 @@ Claude Desktop's `claude_desktop_config.json` expects a local `stdio` command. P
       "command": "npx",
       "args": [
         "-y",
-        "https://codeload.github.com/fourgit/avatarsay-mcp/tar.gz/refs/tags/v1.2.0"
+        "avatarsay-mcp"
       ],
       "env": {
         "AVATARSAY_API_KEY": "avs_YOUR_API_KEY"
