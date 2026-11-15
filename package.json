@@ -1,6 +1,6 @@
 {
   "name": "avatarsay-mcp",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "description": "Zero-dependency MCP stdio bridge and manifest for AvatarSay (https://avatarsay.com/mcp) — roll tabletop RPG NPCs (SillyTavern V2 & Foundry VTT JSON), render <3s MP3 voice barks, and generate fictional character portraits & lip-synced talking MP4 videos.",
   "type": "module",
   "license": "MIT",

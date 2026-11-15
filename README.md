@@ -1,4 +1,4 @@
-# AvatarSay MCP Server (`v0.2.0`)
+# AvatarSay MCP Server (`v1.1.0`)
 
 Roll complete tabletop RPG / D&D NPCs (**SillyTavern Character Card V2** + **Foundry VTT Actor JSON**), synthesize fast (`<3s`) tabletop **MP3 voice barks**, generate original fictional character portraits (**2 × 1024 px** in 8 styles: Anime, 3D Cartoon, Pixel Art, Fantasy, Cyberpunk, Watercolor, Realistic, Professional), and animate them into lip-synced square talking videos (**960×960 H.264 MP4**, 8 built-in English voices, zero watermark) directly from **Claude Desktop, Claude Code, Cursor, Windsurf**, or any Model Context Protocol (MCP) client.
 
