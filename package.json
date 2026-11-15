@@ -1,0 +1,36 @@
+{
+  "name": "avatarsay-mcp",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP stdio bridge and manifest for AvatarSay (https://avatarsay.com/mcp) — generate fictional RPG NPCs, anime OCs, and lip-synced talking avatar MP4 videos.",
+  "type": "module",
+  "license": "MIT",
+  "mcpName": "io.github.fourgit/avatarsay-mcp",
+  "homepage": "https://avatarsay.com/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fourgit/avatarsay-mcp.git"
+  },
+  "bin": {
+    "avatarsay-mcp": "./bin/avatarsay-mcp.mjs"
+  },
+  "files": [
+    "bin/",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "avatarsay",
+    "talking-avatar",
+    "ai-avatar",
+    "rpg-npc",
+    "dnd",
+    "claude",
+    "cursor"
+  ]
+}
