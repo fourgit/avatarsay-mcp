@@ -1,5 +1,9 @@
 # AvatarSay MCP Server (`v1.1.0`)
 
+[![CI](https://github.com/fourgit/avatarsay-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/fourgit/avatarsay-mcp/actions/workflows/ci.yml)
+[![AvatarSay MCP Server MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/fourgit/avatarsay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/fourgit/avatarsay-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/fourgit/avatarsay-mcp/blob/main/LICENSE)
+
 Roll complete tabletop RPG / D&D NPCs (**SillyTavern Character Card V2** + **Foundry VTT Actor JSON**), synthesize fast (`<3s`) tabletop **MP3 voice barks**, generate original fictional character portraits (**2 × 1024 px** in 8 styles: Anime, 3D Cartoon, Pixel Art, Fantasy, Cyberpunk, Watercolor, Realistic, Professional), and animate them into lip-synced square talking videos (**960×960 H.264 MP4**, 8 built-in English voices, zero watermark) directly from **Claude Desktop, Claude Code, Cursor, Windsurf**, or any Model Context Protocol (MCP) client.
 
 - **Remote MCP Endpoint (recommended, zero install):** `https://avatarsay.com/mcp`

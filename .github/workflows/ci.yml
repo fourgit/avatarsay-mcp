@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Validate & Smoke-Test MCP Bridge
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Syntax & manifest check
+        run: |
+          node --check bin/avatarsay-mcp.mjs
+          node -e '
+            const fs = require("node:fs");
+            for (const f of ["package.json", "server.json", "glama.json", "lhm.plugin.json"]) {
+              JSON.parse(fs.readFileSync(f, "utf8"));
+            }
+          '
+      - name: Stdio initialize & tools/list smoke test
+        run: |
+          printf '%s\n%s\n' \
+            '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"ci","version":"1.0.0"}}}' \
+            '{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}' \
+          | node bin/avatarsay-mcp.mjs > /tmp/mcp-out.jsonl
+          node -e '
+            const fs = require("node:fs");
+            const lines = fs.readFileSync("/tmp/mcp-out.jsonl", "utf8").trim().split("\n").map(JSON.parse);
+            if (lines.length !== 2) throw new Error("Expected 2 JSON-RPC responses");
+            if (!lines[0].result?.serverInfo?.version) throw new Error("Missing serverInfo.version");
+            if ((lines[1].result?.tools?.length ?? 0) < 9) throw new Error("Expected >=9 MCP tools");
+            console.log("Verified version:", lines[0].result.serverInfo.version, "tools:", lines[1].result.tools.length);
+          '
