@@ -8,12 +8,12 @@
 Roll complete tabletop RPG / D&D NPCs (**SillyTavern Character Card V2** + **Foundry VTT Actor JSON**), import your existing non-photorealistic **character illustrations & VTT tokens**, synthesize fast (`<3s`) tabletop **MP3 voice barks**, generate original fictional character portraits (**2 × 1024 px** in 8 styles: Anime, 3D Cartoon, Pixel Art, Fantasy, Cyberpunk, Watercolor, Realistic, Professional), and animate them into lip-synced square talking videos (**960×960 H.264 MP4**, 8 built-in English voices, zero watermark) directly from **Claude Desktop, Claude Code, Cursor, Windsurf**, or any Model Context Protocol (MCP) client.
 
 - **Remote MCP Endpoint (recommended, zero install):** `https://avatarsay.com/mcp`
-- **Setup Guide & Live Docs:** [https://avatarsay.com/mcp](https://avatarsay.com/mcp)
-- **API Keys:** [https://avatarsay.com/dashboard#mcp](https://avatarsay.com/dashboard#mcp)
+- **Setup Guide & Live Docs:** [https://avatarsay.com/mcp](https://avatarsay.com/mcp?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)
+- **API Keys:** [https://avatarsay.com/dashboard#mcp](https://avatarsay.com/dashboard?ref=github-mcp&utm_medium=readme&utm_campaign=mcp#mcp)
 - **Free Trial & Pay-Once Pricing:**
   - **Public zero-key NPC roller:** `roll_rpg_npc` and `list_voices_and_styles` run at **0 credits with no API key required**.
   - **30 free signup credits + 1 free talking MP4 via MCP:** New accounts receive **30 free credits** (up to 7 portrait pairs = 14 avatars, or **15 instant `.mp3` NPC voice barks** at 2 credits each) **plus 1 free `<=5s` (`<=75`-char) talking MP4 clip** (`0` credits via MCP or web, zero watermark).
-  - **No subscription:** One-time credit packs start at **$9.90** for 500 credits and **never expire** ([pricing details](https://avatarsay.com/pricing)).
+  - **No subscription:** One-time credit packs start at **$9.90** for 500 credits and **never expire** ([pricing details](https://avatarsay.com/pricing?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)).
 
 ---
 
@@ -110,15 +110,15 @@ Using Foundry VTT or SillyTavern directly at your table? Install the official op
 
 - **Fictional & stylized characters only:** Generates original characters from text and accepts non-photorealistic character illustrations (`import_character_portrait` with EXIF camera-tag blocking + AI vision screening). Real human photos, camera captures, face swaps, real public figures, and voice cloning are strictly blocked.
 - **Non-blocking async video jobs + instant audio barks:** `create_npc_voice_line` returns `.mp3` audio in `<3s`, while 3–5 minute video renders (`create_talking_video`) return `jobId` immediately so MCP clients never time out.
-- **Hashed keys:** AvatarSay stores only the SHA-256 hash of `avs_…` keys. Revoke keys anytime in [Dashboard](https://avatarsay.com/dashboard#mcp).
+- **Hashed keys:** AvatarSay stores only the SHA-256 hash of `avs_…` keys. Revoke keys anytime in [Dashboard](https://avatarsay.com/dashboard?ref=github-mcp&utm_medium=readme&utm_campaign=mcp#mcp).
 
 ## Related Tools
 
-- [AvatarSay Talking Avatar Studio](https://avatarsay.com/talking-avatar)
+- [AvatarSay Talking Avatar Studio](https://avatarsay.com/talking-avatar?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)
 - [Foundry VTT Module (`avatarsay-foundry-vtt`)](https://github.com/fourgit/avatarsay-foundry-vtt)
 - [SillyTavern Extension (`avatarsay-sillytavern`)](https://github.com/fourgit/avatarsay-sillytavern)
-- [Free Fantasy & D&D NPC Prompt Roller](https://avatarsay.com/fantasy-npc-generator)
-- [Free Random Anime Character Roller](https://avatarsay.com/random-anime-character-generator)
+- [Free Fantasy & D&D NPC Prompt Roller](https://avatarsay.com/fantasy-npc-generator?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)
+- [Free Random Anime Character Roller](https://avatarsay.com/random-anime-character-generator?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)
 
 ## License
 
