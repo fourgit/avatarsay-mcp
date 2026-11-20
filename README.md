@@ -7,6 +7,8 @@
 
 Roll complete tabletop RPG / D&D NPCs (**SillyTavern Character Card V2** + **Foundry VTT Actor JSON**), import your existing non-photorealistic **character illustrations & VTT tokens**, synthesize fast (`<3s`) tabletop **MP3 voice barks**, generate original fictional character portraits (**2 × 1024 px** in 8 styles: Anime, 3D Cartoon, Pixel Art, Fantasy, Cyberpunk, Watercolor, Realistic, Professional), and animate them into lip-synced square talking videos (**960×960 H.264 MP4**, 8 built-in English voices, zero watermark) directly from **Claude Desktop, Claude Code, Cursor, Windsurf**, or any Model Context Protocol (MCP) client.
 
+![AvatarSay talking character demo](assets/avatarsay-demo.gif)
+
 - **Remote MCP Endpoint (recommended, zero install):** `https://avatarsay.com/mcp`
 - **Setup Guide & Live Docs:** [https://avatarsay.com/mcp](https://avatarsay.com/mcp?ref=github-mcp&utm_medium=readme&utm_campaign=mcp)
 - **API Keys:** [https://avatarsay.com/dashboard#mcp](https://avatarsay.com/dashboard?ref=github-mcp&utm_medium=readme&utm_campaign=mcp#mcp)
